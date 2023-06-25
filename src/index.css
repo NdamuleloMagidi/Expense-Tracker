@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body {
+  background-color: #ecebef;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.topbar {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.categories {
+  margin-bottom: 30px;
+}
+
+.category {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.category:hover {
+  color: #f707e3eb;
+}
+
+.category.active {
+  color: #f707e3eb;
+}
+
+.budget {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.budget-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.budget-amount {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.budget-remaining {
+  font-size: 14px;
+  color: #999999;
+}
+
+.transactions {
+  flex: 2;
+}
+
+.transactions-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.transaction-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-items {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.transaction-item:last-child {
+  margin-bottom: 0;
+}
+
+.transaction-category {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f707e3eb;
+  margin-right: 15px;
+}
+
+.transaction-description {
+  flex: 1;
+  font-size: 16px;
+  color: #333333;
+}
+
+.transaction-amount {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f707e3eb;
+}
+
+
+.email-icon::before {
+  content: "\e0be";
+  font-family: 'Material Icons';
+}
+
+.phone-icon::before {
+  content: "\e0b0";
+  font-family: 'Material Icons';
+}
