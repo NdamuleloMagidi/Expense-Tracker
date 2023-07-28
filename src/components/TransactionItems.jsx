@@ -1,8 +1,8 @@
 import React from 'react';
 
-const TransactionItems = ({ category, description, amount }) => {
+const TransactionItem = ({ category, description, amount }) => {
   return (
-    <li className="transaction-items">
+    <li className="transaction-item">
       <div className="transaction-category">{category}</div>
       <div className="transaction-description">{description}</div>
       <div className="transaction-amount">{amount}</div>
@@ -10,4 +10,4 @@ const TransactionItems = ({ category, description, amount }) => {
   );
 };
 
-export default TransactionItems;
+export default TransactionItem;

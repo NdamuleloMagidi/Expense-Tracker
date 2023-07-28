@@ -9,7 +9,10 @@ const Sidebar = () => {
           <Link to="/">Transactions</Link>
         </li>
         <li>
-          <Link to="/My-personal-details">My Personal Details</Link>
+          <Link to="/personal-details">Personal Details</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
         </li>
       </ul>
     </aside>
@@ -17,4 +20,5 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
 

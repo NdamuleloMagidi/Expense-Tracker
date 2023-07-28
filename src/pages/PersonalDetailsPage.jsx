@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import MyPersonalDetailsForm from './MyPersonalDetailsForm';
+import PersonalDetailsForm from '../components/PersonalDetailsForm';
 
-const MyPersonalDetailsForm = () => {
+const PersonalDetailsPage = () => {
   return (
     <div>
       <h1>Personal Details</h1>
-      <MyPersonalDetailsForm />
+      <PersonalDetailsForm />
     </div>
   );
 };

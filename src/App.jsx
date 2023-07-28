@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import SideBar from './components/SideBar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import TopBar from './components/TopBar';
+import Sidebar from './components/SideBar';
 import TransactionList from './components/TransactionList';
-import MyPersonalDetailsPage from './pages/MyPersonalDetailsPage';
+import PersonalDetailsPage from './pages/PersonalDetailsPage';
+import AboutPage from './pages/AboutUs';
 import './App.css';
 
 const App = () => {
@@ -14,7 +16,8 @@ const App = () => {
           <Sidebar />
           <Switch>
             <Route exact path="/" component={TransactionList} />
-            <Route path="/my-personal-details" component={MyPersonalDetailsPage} />
+            <Route path="/personal-details" component={PersonalDetailsPage} />
+            <Route path="/aboutus" component={AboutPage} />
           </Switch>
         </main>
       </div>
@@ -23,3 +26,4 @@ const App = () => {
 };
 
 export default App;
+

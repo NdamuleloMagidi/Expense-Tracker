@@ -1,0 +1,122 @@
+
+body, h1, h2, h3, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  .topbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+    background-color: #f1f1f1;
+    padding: 1rem;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar-menu li a:hover {
+    color: #007bff;
+  }
+  
+  .transactions {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .transactions-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .transaction-category {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .transaction-amount {
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .personal-details-form {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    color: #28a745;
+    margin-top: 1rem;
+  }
+  
